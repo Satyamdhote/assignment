@@ -9,4 +9,11 @@ Steps to run this API
       DB_HOST=localhost
       DB_DIALECT=postgres
 - Run your project using command - "npm start"
+- Routes:-
+   1. GET - http://localhost:3000/tasks
+   2. POST - http://localhost:3000/tasks
+   3. PUT - http://localhost:3000/tasks/id
+   4. DELETE - http://localhost:3000/tasks/id
+   5. For Generating Metrics
+       GET - http://localhost:3000/task_metrics
       
